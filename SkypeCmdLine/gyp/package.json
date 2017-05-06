@@ -1,0 +1,23 @@
+{
+  "name": "SkypeCmdLine",
+  "version": "0.0.1",
+  "description": "SkyPrivate C++ Addon",
+  "main": "hello.js",
+  "private": true,
+  "scripts":
+  {
+	"compile": "node-gyp build --target=1.4.15 --arch=ia32 --dist-url=https://atom.io/download/atom-shell",
+	"recompile": "node-gyp rebuild --target=1.4.15 --arch=ia32 --dist-url=https://atom.io/download/atom-shell",
+	
+	"compileDebug": "node-gyp build --debug --target=1.4.15 --arch=ia32 --dist-url=https://atom.io/download/atom-shell",
+	"recompileDebug": "node-gyp rebuild --debug --target=1.4.15 --arch=ia32 --dist-url=https://atom.io/download/atom-shell",
+	
+	"compileNode": "node-gyp build --debug --arch=x64",
+	"recompileNode": "node-gyp rebuild --debug --arch=x64"
+  },
+  "gypfile": true,
+  "dependencies":
+  {
+    "bindings": "~1.2.1"
+  }
+}

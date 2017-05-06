@@ -1,0 +1,303 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84B301CF1E6DD9FA00336F30 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = 84B301CE1E6DD9FA00336F30 /* main.mm */; };
+		84B301D71E6DDF1A00336F30 /* Skype.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84B301D61E6DDF1A00336F30 /* Skype.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		84B301DA1E6DE8BF00336F30 /* SkypeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B301D91E6DE8BF00336F30 /* SkypeController.m */; };
+		84B301E41E6F3BD500336F30 /* CPPSkypeAPIWrapper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84B301DE1E6F3BD500336F30 /* CPPSkypeAPIWrapper.cpp */; };
+		84B301E51E6F3BD500336F30 /* CPPWrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 84B301E11E6F3BD500336F30 /* CPPWrapper.mm */; };
+		84B301E61E6F3BD500336F30 /* CSkypeCommandWrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 84B301E31E6F3BD500336F30 /* CSkypeCommandWrapper.mm */; };
+		84B301E71E6F45EC00336F30 /* Skype.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 84B301D61E6DDF1A00336F30 /* Skype.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		84B301C91E6DD9FA00336F30 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				84B301E71E6F45EC00336F30 /* Skype.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		84B301CB1E6DD9FA00336F30 /* SkypeCmdLine */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SkypeCmdLine; sourceTree = BUILT_PRODUCTS_DIR; };
+		84B301CE1E6DD9FA00336F30 /* main.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
+		84B301D61E6DDF1A00336F30 /* Skype.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Skype.framework; path = SkypeCmdLine/Skype.framework; sourceTree = SOURCE_ROOT; };
+		84B301D81E6DE8BF00336F30 /* SkypeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkypeController.h; sourceTree = "<group>"; };
+		84B301D91E6DE8BF00336F30 /* SkypeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkypeController.m; sourceTree = "<group>"; };
+		84B301DE1E6F3BD500336F30 /* CPPSkypeAPIWrapper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CPPSkypeAPIWrapper.cpp; sourceTree = "<group>"; };
+		84B301DF1E6F3BD500336F30 /* CPPSkypeAPIWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPPSkypeAPIWrapper.h; sourceTree = "<group>"; };
+		84B301E01E6F3BD500336F30 /* CPPWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPPWrapper.h; sourceTree = "<group>"; };
+		84B301E11E6F3BD500336F30 /* CPPWrapper.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CPPWrapper.mm; sourceTree = "<group>"; };
+		84B301E21E6F3BD500336F30 /* CSkypeCommandWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSkypeCommandWrapper.h; sourceTree = "<group>"; };
+		84B301E31E6F3BD500336F30 /* CSkypeCommandWrapper.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CSkypeCommandWrapper.mm; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84B301C81E6DD9FA00336F30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84B301D71E6DDF1A00336F30 /* Skype.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84B301C21E6DD9FA00336F30 = {
+			isa = PBXGroup;
+			children = (
+				84B301CD1E6DD9FA00336F30 /* SkypeCmdLine */,
+				84B301CC1E6DD9FA00336F30 /* Products */,
+				84B301D51E6DDF1A00336F30 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		84B301CC1E6DD9FA00336F30 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84B301CB1E6DD9FA00336F30 /* SkypeCmdLine */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84B301CD1E6DD9FA00336F30 /* SkypeCmdLine */ = {
+			isa = PBXGroup;
+			children = (
+				84B301DE1E6F3BD500336F30 /* CPPSkypeAPIWrapper.cpp */,
+				84B301DF1E6F3BD500336F30 /* CPPSkypeAPIWrapper.h */,
+				84B301E01E6F3BD500336F30 /* CPPWrapper.h */,
+				84B301E11E6F3BD500336F30 /* CPPWrapper.mm */,
+				84B301E21E6F3BD500336F30 /* CSkypeCommandWrapper.h */,
+				84B301E31E6F3BD500336F30 /* CSkypeCommandWrapper.mm */,
+				84B301D81E6DE8BF00336F30 /* SkypeController.h */,
+				84B301D91E6DE8BF00336F30 /* SkypeController.m */,
+				84B301CE1E6DD9FA00336F30 /* main.mm */,
+			);
+			path = SkypeCmdLine;
+			sourceTree = "<group>";
+		};
+		84B301D51E6DDF1A00336F30 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84B301D61E6DDF1A00336F30 /* Skype.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84B301CA1E6DD9FA00336F30 /* SkypeCmdLine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84B301D21E6DD9FA00336F30 /* Build configuration list for PBXNativeTarget "SkypeCmdLine" */;
+			buildPhases = (
+				84B301C71E6DD9FA00336F30 /* Sources */,
+				84B301C81E6DD9FA00336F30 /* Frameworks */,
+				84B301C91E6DD9FA00336F30 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SkypeCmdLine;
+			productName = SkypeCmdLine;
+			productReference = 84B301CB1E6DD9FA00336F30 /* SkypeCmdLine */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84B301C31E6DD9FA00336F30 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Admin;
+				TargetAttributes = {
+					84B301CA1E6DD9FA00336F30 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 5T9GC8M2SL;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 84B301C61E6DD9FA00336F30 /* Build configuration list for PBXProject "SkypeCmdLine" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 84B301C21E6DD9FA00336F30;
+			productRefGroup = 84B301CC1E6DD9FA00336F30 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84B301CA1E6DD9FA00336F30 /* SkypeCmdLine */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84B301C71E6DD9FA00336F30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84B301E41E6F3BD500336F30 /* CPPSkypeAPIWrapper.cpp in Sources */,
+				84B301E51E6F3BD500336F30 /* CPPWrapper.mm in Sources */,
+				84B301DA1E6DE8BF00336F30 /* SkypeController.m in Sources */,
+				84B301CF1E6DD9FA00336F30 /* main.mm in Sources */,
+				84B301E61E6F3BD500336F30 /* CSkypeCommandWrapper.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		84B301D01E6DD9FA00336F30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		84B301D11E6DD9FA00336F30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		84B301D31E6DD9FA00336F30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 5T9GC8M2SL;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SkypeCmdLine",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		84B301D41E6DD9FA00336F30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 5T9GC8M2SL;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SkypeCmdLine",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84B301C61E6DD9FA00336F30 /* Build configuration list for PBXProject "SkypeCmdLine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84B301D01E6DD9FA00336F30 /* Debug */,
+				84B301D11E6DD9FA00336F30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84B301D21E6DD9FA00336F30 /* Build configuration list for PBXNativeTarget "SkypeCmdLine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84B301D31E6DD9FA00336F30 /* Debug */,
+				84B301D41E6DD9FA00336F30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84B301C31E6DD9FA00336F30 /* Project object */;
+}
