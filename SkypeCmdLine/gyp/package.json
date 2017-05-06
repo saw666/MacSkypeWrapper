@@ -1,7 +1,7 @@
 {
   "name": "SkypeCmdLine",
   "version": "0.0.1",
-  "description": "SkyPrivate C++ Addon",
+  "description": "Skype Addon",
   "main": "hello.js",
   "private": true,
   "scripts":
